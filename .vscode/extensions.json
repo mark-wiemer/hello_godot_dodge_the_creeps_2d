@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "geequlim.godot-tools",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    "tyriar.sort-lines",
+    "aaron-bond.better-comments"
+  ]
+}

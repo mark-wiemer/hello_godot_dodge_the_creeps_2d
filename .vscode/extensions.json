@@ -4,6 +4,7 @@
     "eamodio.gitlens",
     "github.vscode-pull-request-github",
     "tyriar.sort-lines",
-    "aaron-bond.better-comments"
+    "aaron-bond.better-comments",
+    "esbenp.prettier-vscode"
   ]
 }

@@ -11,7 +11,7 @@ source_file="res://art/House In a Forest Loop.ogg"
 dest_files=["res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr"]
 
 [params]
-; Likely unnecessary as music is looping via code, ref Main.gd
+
 loop=true
 loop_offset=0.0
 bpm=0.0

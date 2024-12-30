@@ -51,7 +51,6 @@ stream = ExtResource("5_vy0rw")
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_r0ec4")
-autoplay = true
 
 [connection signal="hit" from="Player" to="." method="game_over"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]

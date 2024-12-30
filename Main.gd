@@ -6,6 +6,10 @@ var score
 func _ready():
 	pass
 
+func _input(event):
+	if Input.is_action_pressed("quit_game"):
+		get_tree().quit()
+
 func game_over():
 	$ScoreTimer.stop()
 	$MobTimer.stop()

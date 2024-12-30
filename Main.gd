@@ -51,3 +51,8 @@ func _on_score_timer_timeout():
 func _on_start_timer_timeout():
 	$MobTimer.start()
 	$ScoreTimer.start()
+
+# workaround tutorial issues
+# https://github.com/godotengine/godot-docs-user-notes/discussions/16#discussioncomment-11694026
+func _on_music_finished():
+	$Music.play()
